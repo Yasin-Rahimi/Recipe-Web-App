@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Recipe Discover</title>
+</head>
+<body>
+  <main class="main-background">
+    
+    <!-- { Header } -->
+    <div class="header">
+      <div class="header-inner">
+        <div class="header-left">
+          <div class="logo-circle">
+            <i class="logo-icon" data-lucide="chef-hat"></i>
+          </div>
+          <div>
+            <h1 class="site-title">Recipe Discover</h1>
+            <p class="site-subtitle">Discover amazing meals from around the world</p>
+          </div>
+        </div>
+        <button class="button-refresh" id="next-recipe-btn">
+          <i class="refresh-icon" data-lucide="refresh-cw"></i>
+          <span>Get Random Recipe</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- { Meal Container } -->
+    <div id="meal" class="meal-container">
+
+      <!-- { Intro Section with Image & Tags } -->
+      <div class="main-container-section">
+        <div class="image-container">
+          <div class="image-text-container">
+            <!-- جاوااسکریپت اسم غذا + تگ‌ها رو اینجا اضافه می‌کنه -->
+          </div>
+        </div>
+
+        <!-- { Small Cards } -->
+        <div class="small-cards-container">
+          <div class="small-cards">
+            <span class="card-icon" data-lucide="clock"></span>
+            <div class="card-text-container">
+              <span class="card-name">Prep Time</span>
+              <p class="card-value">30 min</p>
+            </div>
+          </div>
+          <div class="small-cards">
+            <span class="card-icon second-color" data-lucide="users"></span>
+            <div class="card-text-container">
+              <span class="card-name">Servings</span>
+              <p class="card-value">4</p>
+            </div>
+          </div>
+          <div class="small-cards">
+            <span class="card-icon third-color" data-lucide="chef-hat"></span>
+            <div class="card-text-container">
+              <span class="card-name">Difficulty</span>
+              <span class="card-value">Hard</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- { Ingredients + YouTube } -->
+      <div class="main-container-section">
+        <div class="ingredient-container">
+          <h1 class="gradiant-head">Ingredients</h1>
+          <ul>
+            <!-- جاوااسکریپت مواد اولیه رو اینجا وارد می‌کنه -->
+          </ul>
+        </div>
+
+        <div class="main-youtube-box">
+          <div class="red-box">
+            <i class="youtube-icon" data-lucide="youtube"></i>
+            Watch Video Tutorial
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- { Cooking Instructions } -->
+    <div class="cook-formula-container">
+      <h1 class="gradiant-head">Cooking Instructions</h1>
+      <div class="cook-formula-inner">
+        <!-- جاوااسکریپت مراحل پخت رو اینجا اضافه می‌کنه -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>lucide.createIcons();</script>
+  <script src="meal.js"></script>
+</body>
+</html>

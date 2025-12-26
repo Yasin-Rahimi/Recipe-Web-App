@@ -1,11 +1,6 @@
 import React from "react";
 
-export default function Ingredients() {
-  const ingredients = [
-    { name: "Flour", value: "2 cups" },
-    { name: "Eggs", value: "3 pcs" },
-  ];
-
+export default function Ingredients({ ingredients }) {
   return (
     <div className="rounded-lg bg-white shadow-lg">
       <h1 className="text-xl font-semibold text-white bg-gradient-to-r from-orange-500 to-yellow-500 p-6 rounded-t-lg">

@@ -1,12 +1,52 @@
-# React + Vite
+# 🍳 Recipe Discover
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive recipe web application built with React and styled using Tailwind CSS.  
+Users can explore meals from around the world, view detailed ingredients, cooking instructions, and watch related YouTube videos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Preview
 
-## Expanding the ESLint configuration
+![Recipe Discover Preview](src/preview.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- Discover random recipes with a single click  
+- View meal details including title, category, area, and tags  
+- Explore ingredients with a clean card layout  
+- Step-by-step cooking instructions  
+- Watch related YouTube videos for each recipe  
+- Responsive and visually appealing UI using Tailwind CSS  
+- Smooth animations and gradient accents for a modern look  
+
+---
+
+## 🧠 Technologies Used
+
+- React (Functional Components & Hooks)  
+- Tailwind CSS  
+- JavaScript (ES6+)  
+- Lucide React Icons for UI elements  
+
+---
+
+## 🧩 How It Works
+
+1. Click **Get Random Recipe** to fetch a new meal.  
+2. Meal details appear including:  
+   - Title, category, area, and tags  
+   - Ingredients with quantity and name  
+   - Step-by-step cooking instructions  
+   - Embedded YouTube video for the recipe  
+3. Explore multiple recipes by clicking the button again for a new random recipe.  
+
+---
+
+## ⚙️ Installation & Usage
+
+### Clone the Repository
+```bash
+git clone https://github.com/Yasin-Rahimi/RecipeDiscover.git
+cd RecipeDiscover

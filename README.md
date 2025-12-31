@@ -28,7 +28,7 @@ Users can explore meals from around the world, view detailed ingredients, cookin
 - React (Functional Components & Hooks)  
 - Tailwind CSS  
 - JavaScript (ES6+)  
-- Lucide React Icons for UI elements  
+- Flowbite React Icons for UI elements  
 
 ---
 
